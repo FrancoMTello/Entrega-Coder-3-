@@ -1,0 +1,90 @@
+
+/* Marco*/
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+/* Gracias por visitarnos*/
+.main_div{
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.main_div_span{
+    display: block;
+    background-color: rgba(39, 38, 38, 0.384);
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.main_div_p{
+    display: flex;
+    padding-bottom: 1em;
+    padding-left:1em;
+    padding-top:5%;
+    background-color: rgb(211, 211, 211);
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.main_section_span{
+    display:block;
+    font-size: 30px;
+    width: 100%;
+    background-color: rgba(39, 38, 38, 0.384);
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
+/* Esto es para la seccion de compras */
+.card {
+    display: block;
+    margin: 0;      
+    }
+
+
+.card-body {
+    border: 1px solid #a5a4a4;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 0;
+}
+.card-title {
+    padding-top: 100px;
+    font-size: 35px;
+    font-weight: bold;
+    }
+
+body main section article p {
+    font-size: 20px;
+}
+
+body main section article h4{
+    font-size: 25px;
+    margin: 10px;
+}
+
+

@@ -1,0 +1,62 @@
+
+/* Logo */
+header{
+    display:flex;
+    background-color:rgba(230, 2, 2, 0.815);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+}
+header div h1{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+    padding: 10;
+}
+
+
+/* Esto modifica el nav*/
+header nav ul{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-evenly;
+    text-align: right;
+    font-size: 20px;
+    margin: 0;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+}
+header nav ul li a{
+    list-style-type: none;
+    color: #000000;
+    font-weight: bold
+}
+
+@media (max-width: 576px) {
+    header nav ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items: right;
+        font-size: 15px;
+        width: 100%;
+        margin: 0;
+        color: black;
+    }
+}
+
+/* Efecto Hover */
+header nav ul li a{
+    list-style-type: none;
+}
+nav ul li:hover {
+    background-color:red
+}
+nav ul li:hover a {
+    color: #000000;
+} 
