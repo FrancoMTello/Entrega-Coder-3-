@@ -1,0 +1,40 @@
+
+
+
+$rainbox-colors: #FF4D4D, #FF8C8C, #FFB6B6, #FFD8D8, #FFE9E9;
+.sobre_nosotros{
+    display: flex;
+    color: rgb(252, 6, 6);
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    }
+.container{
+    background: linear-gradient(to right, $rainbox-colors);
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+@media (max-width: 576px) {
+    .imgcenter{
+        display: flex;
+        height: 200px;
+        margin: 10px;
+        justify-content: center;
+        }
+    .sobre_nosotros{
+        display:block;
+        font-weight: bold;
+        background-color: rgb(255, 255, 255);
+        font-size: 10   px;
+        color: rgb(255, 0, 0);
+        width: 100%;
+        padding-bottom: 5px;
+        justify-content: center;
+        margin:0;
+    }}
